@@ -13,15 +13,15 @@ span
   width: 350px;
   height: 300px; 
 }
-#result_emotion_name ,#result_emotion_name2  
+#result_gesture_name ,#result_gesture_name2  
 {
   color: black;
 }
-.emotion_name
+.gesture_name
 {
   font-size: 40px;
 }
-.emoji
+.gesture
 {
   font-size:48px;
 }

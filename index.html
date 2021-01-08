@@ -1,7 +1,6 @@
- 
 <html>
   <head>
-    <title>Emotion To Emoji</title>
+    <title>Hand Gesture</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,24 +16,21 @@
   <div class="container">
   
     <center>
-    <h3 class="btn btn-warning heading">EMOTION TO EMOJI APP
+    <h3 class="btn btn-warning heading">Hand Gesture app
       <br>
-      <span>&#128522;</span>
-      <span>&#128512;</span>
-      <span>&#128532;</span>
-      <span>&#128546;</span>
-      <span>&#128545;</span>
-      <span>&#128548;</span>
+      <span>&#128076;</span>
+      <span>&#128077;</span>
+      <span>&#129304;</span>
       </h3>
       <br>
       <br>
-      <p style="font-size: 22px;">Take your selfie to generate emoji
+      <p style="font-size: 22px;">Take your selfie to generate gesture
       	<br>
-        <b style="color: yellow">Are you Happy?</b>
+        <b style="color: yellow">Amazing?</b>
         <br>
-        <b style="color: black">Are you Sad?</b>
+        <b style="color: black">Yo?</b>
         <br>
-        <b style="color: red">Are you Angry?</b>
+        <b style="color: red">Thumbs up?</b>
         <br>
       </p>
     <div class="col-md-4 col-sm-12 col-xs-12">
@@ -46,12 +42,12 @@
 
     <div class="col-md-4 col-sm-12 col-xs-12">
       <label>Prediction 1 - </label>
-      <p class="emotion_name" id="result_emotion_name"></p>
+      <p class="gesture_name" id="result_gesture_name"></p>
       <p class="emoji" id="update_emoji"></p>
 
           <label>Prediction 2 - </label>
-          <p class="emotion_name" id="result_emotion_name2"></p>
-          <p class="emoji" id="update_emoji2"></p>
+          <p class="gesture_name" id="result_gesture_name2"></p>
+          <p class="gesture" id="update_gesture2"></p>
           </p>
     
     </div>
@@ -59,7 +55,7 @@
 	      <label>Snapshot - </label>
         <div id="result"></div>
         <br><br>
-        <buton onclick="check();" class="btn btn-success">Predict Emotion</buton>
+        <buton onclick="check();" class="btn btn-success">Predict Gesture</buton>
       </div>
 
     </center>
